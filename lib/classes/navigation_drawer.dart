@@ -48,7 +48,7 @@ class NavigationDrawerState extends State<NavigationDrawer> with SingleTickerPro
         color: drawerBackgroundColor,
         child: Column(
           children: <Widget>[
-            CollapsingListTile(title: 'Ahchraf Karkaih', icon: Icons.person, animationController: _animationController,),
+            CollapsingListTile(title: 'Achraf Karkaih', icon: Icons.person, animationController: _animationController,),
             Divider(color: Colors.grey, height: 40.0,),
             Expanded(
               child: ListView.separated(
